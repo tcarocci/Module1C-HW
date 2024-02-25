@@ -24,6 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Updated nav element from div*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/*Updated to figure since it as picture and removed the class with tag*/
 figure {
     height: 800px;
     width: 100%;
@@ -69,12 +71,14 @@ figure {
     margin-left: 25px;
 }
 
+/*Updated to Article*/
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Updated to aside*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +90,7 @@ aside {
     background-color: #2589bd;
 }
 
+/*Consolidate parent and child elements into fewer lines of code with same results. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +107,7 @@ aside {
     max-width: 150px;
 }
 
+/*Consolidate different parent and child elements into fewer lines of code with same results. */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +125,7 @@ section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Updated to footer*/
 footer {
     padding: 30px;
     clear: both;
